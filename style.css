@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;800&family=Source+Serif+4:wght@400;600&display=swap');
+
+                                            /*ESTILO GENERAL*/
+body {
+  font-family: 'Source Serif 4', serif;
+  background-color: 	#3E2F5B I !important; 
+  color: #FDFDFD;
+  line-height: 1.7;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Playfair Display', serif;
+  color: #F0A6CA;
+}
+
+a {
+  color: #3FA7D6;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EF476F; 
+  text-decoration: underline;
+}
+
+
+.navbar {
+  box-shadow: 0 2px 4px rgba(0,0,0,0.4);
+  background-color: #1C2541;
+}
+
+.nav-link.active {
+  color: #EF476F !important;
+}
+
+
+section {
+  margin-bottom: 3rem;
+}
+
+
+.proyecto img {
+  border: 2px solid #B5B5B5;
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.proyecto img:hover {
+  transform: scale(1.03);
+  border-color: #3FA7D6;
+}
+
+
+footer {
+  border-top: 1px solid #1C2541;
+  background-color: #0B132B;
+}
+
+blockquote {
+  font-style: italic;
+  color: #B5B5B5;
+  border-left: 4px solid #EF476F;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+}
+
+button.btn-light {
+  background-color: #3FA7D6;
+  color: #0B132B;
+  border: none;
+}
+button.btn-light:hover {
+  background-color: #EF476F;
+  color: white;
+}
+
+                                        /*RESPONSIVE*/
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+  .proyecto img {
+    margin-bottom: 1rem;
+  }
+}
