@@ -5,17 +5,17 @@
 body {
   font-family: 'Source Serif 4', serif;
   background-color: 	#3E2F5B I !important; 
-  color: #FDFDFD;
+  color: #b43e3e !important;
   line-height: 1.7;
 }
 
 h1, h2, h3, h4, h5 {
   font-family: 'Playfair Display', serif;
-  color: #F0A6CA;
+  color: #F0A6CA!important;
 }
 
 a {
-  color: #3FA7D6;
+  color: #3FA7D6!important;
   text-decoration: none;
 }
 
@@ -53,8 +53,8 @@ section {
 
 
 footer {
-  border-top: 1px solid #1C2541;
-  background-color: #0B132B;
+  border-top: 1px solid #ffb96e;
+  background-color: #688dff;
 }
 
 blockquote {
