@@ -1,0 +1,84 @@
+/*IMPORTAR FUENTES*/
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap" rel="stylesheet');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Quattrocento:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: url('7ab5996a-fbf4-43c0-9614-5c05da9b4822.png') no-repeat center center;
+  background-size: cover; /* Imagen de fondo personalizada */
+}
+
+.tecnologia-section {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.titulo {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #ccc;
+  border-radius: 100% 0 0 0;
+  padding: 3rem;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.card {
+  position: absolute;
+  width: 220px;
+  height: 250px;
+  background-color: #bbb;
+  border-radius: 30px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card .media-carousel {
+  background-color: #ddd;
+  padding: 1rem;
+  height: 70%;
+  position: relative;
+}
+
+.card .media-carousel img,
+.card .media-carousel video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: none;
+}
+
+.card .media-carousel video:first-child {
+  display: block;
+}
+
+.dots {
+  position: absolute;
+  bottom: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.dots span {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 3px;
+}
+
+.descripcion {
+  background-color: #999;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+/* Posiciones exactas */
+.card1 { top: 40px; left: 80px; }
+.card2 { top: 280px; left: 400px; }
+.card3 { top: 40px; right: 80px; }

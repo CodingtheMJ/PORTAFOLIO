@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Audiovisual</title>
+  <link rel="stylesheet" href="../CSS/S-AUDIOVISUAL.css">
+</head>
+<body>
+
+  <!-- PRIMER CONTENEDOR (Carruseles de imágenes) -->
+  <div class="container" id="carousel-container">
+    <div class="card">
+      <div class="carousel">
+        <img src="https://via.placeholder.com/200x150?text=1A" class="active">
+        <img src="https://via.placeholder.com/200x150?text=1B">
+        <img src="https://via.placeholder.com/200x150?text=1C">
+        <button class="carousel-btn prev-btn">&#10094;</button>
+        <button class="carousel-btn next-btn">&#10095;</button>
+      </div>
+      <div class="description">Descripción</div>
+    </div>
+
+    <div class="card">
+      <div class="carousel">
+        <img src="-../IMÁGENESPORTAFOLIOMJ/ADARRYN1.jpg/" class="active">
+        <img src="../IMÁGENESPORTAFOLIOMJ/ADARRYN1.jpg">
+        <img src="../IMÁGENESPORTAFOLIOMJ/ADARRYN1.jpg">
+        <button class="carousel-btn prev-btn">&#10094;</button>
+        <button class="carousel-btn next-btn">&#10095;</button>
+      </div>
+      <div class="description">Descripción</div>
+    </div>
+  </div>
+
+  <!-- SEGUNDO CONTENEDOR (Video + descripción con enlaces) -->
+  <div class="container" id="media-container">
+    <div class="media-card">
+      <video src="https://www.w3schools.com/html/mov_bbb.mp4" controls></video>
+      <div class="media-description">
+        <p>Descripción con <a href="#">enlace útil</a>.</p>
+      </div>
+    </div>
+
+    <div class="media-card">
+      <video src="https://www.w3schools.com/html/movie.mp4" controls></video>
+      <div class="media-description">
+        <p>Otra descripción con <a href="#">otro enlace</a>.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="s-audiovisual.js"></script>
+</body>
+</html>

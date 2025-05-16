@@ -1,0 +1,167 @@
+/* IMPORTAR FUENTES */
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* RESET Y ESTILOS GENERALES */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Quattrocento', serif;
+  background-color: #ffffff;
+}
+
+
+.contact-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  gap: 2rem;
+  padding: 2rem;
+  flex-wrap: wrap;
+}
+
+
+.left-panel {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-form {
+  background-color: #eee;
+  padding: 2rem;
+  border-radius: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.contact-form h2 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 30px;
+  background-color: #ccc;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+}
+
+.contact-form textarea {
+  border-radius: 20px;
+  resize: vertical;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 0.8rem;
+  background-color: #999;
+  border: none;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* PANEL DERECHO */
+.right-panel {
+  flex: 1;
+  min-width: 300px;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-social {
+  background-image: url('../IMÁGENESPORTAFOLIOMJ/FONDOREDES.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2rem;
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  position: relative;
+}
+
+.contact-social p {
+  font-size: 1.2rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 1.5rem;
+}
+
+.icon-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-items: center;
+}
+
+.icon-box img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.2s;
+}
+
+.icon-box img:hover {
+  transform: scale(1.1);
+}
+
+.contact-social {
+  background-image: url('../IMÁGENESPORTAFOLIOMJ/FONDOREDES.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 2rem;
+  border: 2px solid #000;
+  border-radius: 30px;
+  width: 100%;
+  max-width: 350px;
+  height: 400px; /* Aumentado para que quepan todos */
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-social p {
+  font-size: 1.4rem;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 2rem;
+}
+
+.icon-box {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.icon-box img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #fff;
+  padding: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+.icon-box img:hover {
+  transform: scale(1.1);
+}
