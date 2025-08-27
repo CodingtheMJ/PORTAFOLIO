@@ -126,11 +126,10 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   padding: 2rem;
-  border: 2px solid #000;
   border-radius: 30px;
   width: 100%;
-  max-width: 350px;
-  height: 400px; /* Aumentado para que quepan todos */
+  max-width: 500px;
+  height: 400px;
   position: relative;
   display: flex;
   flex-direction: column;
